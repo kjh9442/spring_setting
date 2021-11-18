@@ -3,13 +3,16 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>DB 데이터 넣기</title>
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<form action="insert">
+<input type="text" id="id" name="id">
+<input type="text" id="pw" name="pw">
+<button type="submit" id="submit">submit</button>
+</form>
+
+
 </body>
 </html>
